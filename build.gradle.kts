@@ -1,3 +1,4 @@
+import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 plugins {
     kotlin("jvm") version "2.0.20"
     kotlin("plugin.compose") version "2.0.20"
@@ -30,5 +31,14 @@ tasks.test {
 compose.desktop {
     application {
         mainClass = "tracker.MainKt"
+
+
+        val dynamicVersion = (project.findProperty("appVersion") as? String)?.removePrefix("v") ?: "1.0.0"
+
+        nativeDistributions {
+            targetFormats(TargetFormat.Msi, TargetFormat.Deb)
+            packageName = "TaskTracker"
+            packageVersion = dynamicVersion
+        }
     }
 }

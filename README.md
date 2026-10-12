@@ -1,4 +1,4 @@
-# Таск-трекер — лабораторная работа №1
+# Таск-трекер
 
 Вариант 9. Kotlin 2.0, Compose Desktop, Gradle (Kotlin DSL), JDK 21.
 

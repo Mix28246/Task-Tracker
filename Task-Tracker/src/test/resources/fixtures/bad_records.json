@@ -1,0 +1,36 @@
+{
+  "version" : 1,
+  "tasks" : [ {
+    "type" : "REGULAR",
+    "id" : 1,
+    "title" : "Подготовить отчёт по лабораторной",
+    "assignee" : "Иван Петров",
+    "deadline" : "2026-10-10",
+    "importance" : 5,
+    "dutyPerson" : ""
+  }, {
+    "type" : "REGULAR",
+    "id" : 2,
+    "title" : "Важность вне диапазона",
+    "assignee" : "Анна Смирнова",
+    "deadline" : "2026-10-11",
+    "importance" : 42,
+    "dutyPerson" : ""
+  }, {
+    "type" : "URGENT",
+    "id" : 3,
+    "title" : "Срочная без дежурного",
+    "assignee" : "Олег Сидоров",
+    "deadline" : "2026-10-12",
+    "importance" : 9,
+    "dutyPerson" : ""
+  }, {
+    "type" : "REGULAR",
+    "id" : 1,
+    "title" : "Повтор ID",
+    "assignee" : "Мария Козлова",
+    "deadline" : "2026-10-13",
+    "importance" : 4,
+    "dutyPerson" : ""
+  } ]
+}

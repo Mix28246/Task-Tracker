@@ -1,0 +1,11 @@
+{
+  "version" : 1,
+  "tasks" : [ {
+    "type" : "REGULAR",
+    "id" : 1,
+    "title" : "Подготовить отчёт по лабораторной",
+    "assignee" : "Иван Петров",
+    "deadline" : "2026-10-10",
+    "dutyPerson" : ""
+  } ]
+}

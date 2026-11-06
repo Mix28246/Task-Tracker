@@ -1,0 +1,60 @@
+{
+  "version" : 1,
+  "tasks" : [ {
+    "type" : "ARCHIVED",
+    "id" : 4,
+    "title" : "Настроить репозиторий",
+    "assignee" : "Иван Петров",
+    "deadline" : "2026-09-01",
+    "importance" : 3,
+    "dutyPerson" : ""
+  }, {
+    "type" : "ARCHIVED",
+    "id" : 6,
+    "title" : "Провести ретроспективу",
+    "assignee" : "Мария Козлова",
+    "deadline" : "2026-09-20",
+    "importance" : 4,
+    "dutyPerson" : ""
+  }, {
+    "type" : "URGENT",
+    "id" : 2,
+    "title" : "Починить падение сервера",
+    "assignee" : "Анна Смирнова",
+    "deadline" : "2026-10-03",
+    "importance" : 10,
+    "dutyPerson" : "Пётр Иванов"
+  }, {
+    "type" : "URGENT",
+    "id" : 5,
+    "title" : "Обновить сертификат HTTPS",
+    "assignee" : "Олег Сидоров",
+    "deadline" : "2026-10-05",
+    "importance" : 9,
+    "dutyPerson" : "Анна Смирнова"
+  }, {
+    "type" : "REGULAR",
+    "id" : 1,
+    "title" : "Подготовить отчёт по лабораторной",
+    "assignee" : "Иван Петров",
+    "deadline" : "2026-10-10",
+    "importance" : 5,
+    "dutyPerson" : ""
+  }, {
+    "type" : "REGULAR",
+    "id" : 3,
+    "title" : "Написать тесты для CSV",
+    "assignee" : "Мария Козлова",
+    "deadline" : "2026-10-15",
+    "importance" : 6,
+    "dutyPerson" : ""
+  }, {
+    "type" : "REGULAR",
+    "id" : 7,
+    "title" : "Обновить зависимости",
+    "assignee" : "Олег Сидоров",
+    "deadline" : "2026-10-20",
+    "importance" : 2,
+    "dutyPerson" : ""
+  } ]
+}

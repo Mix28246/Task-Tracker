@@ -1,0 +1,15 @@
+{
+  "version" : 1,
+  "tasks" : [ {
+    "type" : "ARCHIVED",
+    "id" : 4,
+    "title" : "Настроить репозиторий",
+    "assignee" : "Иван Петров",
+    "deadline" : "2026-09-01",
+    "importance" : 3,
+    "dutyPerson" : ""
+  }, {
+    "type" : "ARCHIVED",
+    "id" : 6,
+    "title" : "Провести ретроспективу",
+    "assignee" : "Мария Козлова
